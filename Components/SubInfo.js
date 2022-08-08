@@ -62,6 +62,13 @@ export const EndDate = () => {
             }}>
                 Ending in
         </Text>
+        <Text style={{
+            fontFamily: FONTS.semiBold, 
+            fontSize: SIZES.medium, 
+            color: COLORS.primary 
+            }}>
+                12h 30m
+        </Text>
         </View>
     )
 }
